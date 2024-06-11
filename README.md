@@ -34,8 +34,29 @@ To run this project locally, follow these steps:
 1.Clone the repository:
 ```sh
 git clone https://github.com/aasiskndl/PRODIGY_DS_02.git
+```
 
+## Usage
+To start the analysis, open the Jupyter Notebook file Sales_EDA.ipynb and run the cells. The notebook is structured to guide you through the EDA process step by step.
 
+## Anlaysis
+### Data Cleaning
+* Missing Values: Identified and handled missing values appropriately.
+* Data Types: Ensured correct data types for each feature.
+* Duplicates: Removed any duplicate records to maintain data integrity.
+
+### Data Visualization 
+* Customer Focoused: Data visualized on the basis of customer gender, age, zone, married or unmarried, occupation
+* Revenue Distribution: Analyzed the distribution of revenue of products category.
+* Product Performance: Compared the performance of different products in terms of quantity sold and revenue generated.
+
+## Insights
+From the EDA, several key insights were derived:
+* Top Customers: Unmarried women of age group 26-35 years from UP, Maharastra and Karnataka working in IT, Healthcare And Aviation are likely to buy products form this particular store.
+* Top Preforming Products: Food, Clothing and Electronics category
+
+## Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or improvements, please open an issue or submit a pull request.
 
 
 
